@@ -1,5 +1,5 @@
 import {HomeComponent} from "./pages/home/home.component";
-import { AssetListComponent } from './asset-list/asset-list.component';
+import { AssetListComponent } from './components/asset-list/asset-list.component';
 export const appRoutes=[
     {
         path:'',
