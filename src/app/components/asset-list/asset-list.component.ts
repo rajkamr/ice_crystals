@@ -11,19 +11,23 @@ export class AssetListComponent implements OnInit {
   public assetList = [
     {
       "name": "Backhoe Loaders",
-      "imageUrl": "backhoe_loaders.jpeg"
+      "imageUrl": "backhoe_loaders.jpeg",
+      "assetId": 1
     },
     {
       "name": "Compactors",
-      "imageUrl": "compactors.jpeg"
+      "imageUrl": "compactors.jpeg",
+      "assetId": 2
     },
     {
       "name": "Excavator",
-      "imageUrl": "excavator.jpeg"
+      "imageUrl": "excavator.jpeg",
+      "assetId": 3
     },
     {
       "name": "Forest Machines",
-      "imageUrl": "forest_machine.jpeg"
+      "imageUrl": "forest_machine.jpeg",
+      "assetId": 4
     }
   ];
   ngOnInit() {
