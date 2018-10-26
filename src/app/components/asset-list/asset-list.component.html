@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-6 col-md-4" *ngFor="let asset of assetList">
-        <div class="thumbnail">
+        <div [routerLink]="['/details/1']" class="thumbnail">
           <img src="assets/img/products/{{asset.imageUrl}}" alt="{{ asset.name }}" />
           <div class="caption">
             <h3>{{ asset.name }}</h3>

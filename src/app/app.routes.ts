@@ -3,11 +3,11 @@ import { AssetListComponent } from './components/asset-list/asset-list.component
 export const appRoutes=[
     {
         path:'',
-        redirectTo:'home',
+        redirectTo:'asset-list',
         pathMatch:'full'
     },
     {
-        path: 'home',
+        path: 'details/:id',
         component: HomeComponent
     },
     {
@@ -15,7 +15,7 @@ export const appRoutes=[
         component: AssetListComponent
     },
     {
-        path: 'others',
-        loadChildren:'./pages/others/others.module#OthersModule',
-    },
+        path: '**',
+        redirectTo: '/asset-list'
+    }
 ];
