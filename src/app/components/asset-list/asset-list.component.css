@@ -1,3 +1,7 @@
 .thumbnail .caption {
     text-align: center;
 }
+
+.thumbnail{
+    cursor: pointer;
+}
