@@ -9,7 +9,7 @@ You will need to clone the source code of ng-dashboard GitHub repository.
 After the repository is cloned, go inside of the repository directory and install dependencies:
 
 ```
-cd ng-dashboard
+cd ice-crystals
 npm install
 npm start
 ```
